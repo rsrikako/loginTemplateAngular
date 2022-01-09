@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "poppins-Regular";
+  src: url("node_modules\@fontsource\poppins\files\poppins-all-400-italic.woff")
+    format("woff");
+}

@@ -1,0 +1,30 @@
+<nav id="sidebar" class="" [ngClass]="menuActive ? 'active' : ''">
+  <div class="custom-menu">
+    <button
+      type="button"
+      id="sidebarCollapse"
+      class="btn btn-primary"
+      (click)="toggleMenu()"
+    >
+      <fa-icon [icon]="faBars"></fa-icon>
+      <span class="sr-only">Toggle Menu</span>
+    </button>
+  </div>
+  <div class="p-4">
+    <h1>
+      <a class="logo">Welcome User !!</a>
+    </h1>
+    <ul class="list-unstyled components mb-5">
+      <li class="active">
+        <a class="text-decoration-none"
+          ><fa-icon class="mr-3" [icon]="faHome"></fa-icon> Home</a
+        >
+      </li>
+      <li>
+        <a class="text-decoration-none"
+          ><fa-icon class="mr-3" [icon]="faUser"></fa-icon> Account</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
